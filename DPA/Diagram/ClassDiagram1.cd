@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DPA.Components.Asteroid">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAIAAAAAAAAAA=</HashCode>
+      <FileName>Components\Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Components.Planet">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAACAAAAAAAAAAAAAABAAAAoAIAAAAAAAAAA=</HashCode>
+      <FileName>Components\Planet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Components.CelestialObject">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACAAAAIAIAAQAAAAgQAAAAQQAAAIAoAgAAAAAAAA=</HashCode>
+      <FileName>Components\CelestialObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Controller.CelestialObjectCSV" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>FileManagement\CelestialObjectCSV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DPA.Program" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Repository.CelestialObjectRepository" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAQAAAAAAAAAAgAAEAAAAAAEQAAAAAAAAQA=</HashCode>
+      <FileName>Repository\CelestialObjectRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Memento.CelestialObjectListMemento" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Memento\CelestialObjectListMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Memento.CareTaker" Collapsed="true">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAABAAAAAhIgAABAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Memento\CareTaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Memento.LinkedListExtensions" Collapsed="true">
+    <Position X="7" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Memento\LinkedListExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Factory.CelestialObjectFactory" Collapsed="true">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\CelestialObjectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPA.Controller.GameHandler" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAhQAAEgAAEAABAAADAACAAEAAAQAIACE=</HashCode>
+      <FileName>Controller\GameHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DPA.Interface.CelestialObjectPersistence" Collapsed="true">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\CelestialObjectPersistence.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DPA.Enum.OnCollisionEffects" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAAAAAAAAAAAACAAAAAAgAAAAAAAgAAA=</HashCode>
+      <FileName>Enum\OnCollisionEffects.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DPA.Enum.CelestialObjectType" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum\CelestialObjectType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DPA.Enum.ColorEnum" Collapsed="true">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAEAAAAEAAAAAAAAAAAAABAAgAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Enum\ColorEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
